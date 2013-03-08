@@ -1,0 +1,5 @@
+function filterodd (array)	{
+	ao=[];
+	ao = array.filter(function(item,index,array){return ((item %2)===1)})
+	return ao;
+}
